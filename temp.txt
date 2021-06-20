@@ -1,0 +1,717 @@
+yarn run v1.22.10
+$ rollup -c
+C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/ConfigProvider/index.ts
+<ref *1> NodeObject {
+  pos: 0,
+  end: 44,
+  flags: 0,
+  modifierFlagsCache: 536870912,
+  transformFlags: 0,
+  parent: <ref *2> SourceFileObject {
+    pos: 0,
+    end: 75,
+    flags: 0,
+    modifierFlagsCache: 0,
+    transformFlags: 0,
+    parent: undefined,
+    kind: 298,
+    statements: [
+      [Circular *1],
+      [NodeObject],
+      pos: 0,
+      end: 73,
+      hasTrailingComma: false,
+      transformFlags: 0
+    ],
+    endOfFileToken: TokenObject {
+      pos: 73,
+      end: 75,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *2],
+      kind: 1
+    },
+    fileName: 'C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/ConfigProvider/index.ts',
+    text: "import ConfigContext from './ConfigContext';\r\n" +
+      '\r\n' +
+      'export { ConfigContext };\r\n',
+    languageVersion: 1,
+    languageVariant: 0,
+    scriptKind: 3,
+    isDeclarationFile: false,
+    hasNoDefaultLib: false,
+    externalModuleIndicator: [Circular *1],
+    bindDiagnostics: [],
+    bindSuggestionDiagnostics: undefined,
+    pragmas: Map(0) {},
+    checkJsDirective: undefined,
+    referencedFiles: [],
+    typeReferenceDirectives: [],
+    libReferenceDirectives: [],
+    amdDependencies: [],
+    commentDirectives: undefined,
+    nodeCount: 10,
+    identifierCount: 2,
+    identifiers: Map(2) {
+      'ConfigContext' => 'ConfigContext',
+      './ConfigContext' => './ConfigContext'
+    },
+    parseDiagnostics: [],
+    version: 'a6a7cd663c60cc780f6bf222fbf8075b5256ff6f5822c58edbe07a658734e961',
+    path: 'c:/users/jiazheng/desktop/weblearning/rollup/ui-kit/src/components/configprovider/index.ts',
+    resolvedPath: 'c:/users/jiazheng/desktop/weblearning/rollup/ui-kit/src/components/configprovider/index.ts',
+    originalFileName: 'C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/ConfigProvider/index.ts',
+    imports: [ [TokenObject], [TokenObject] ],
+    moduleAugmentations: [],
+    ambientModuleNames: [],
+    resolvedModules: Map(2) { 'tslib' => [Object], './ConfigContext' => [Object] },
+    symbol: SymbolObject {
+      flags: 512,
+      escapedName: '"C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/ConfigProvider/index"',
+      declarations: [Array],
+      exports: [Map],
+      valueDeclaration: [Circular *2],
+      id: 67
+    },
+    locals: Map(1) { 'ConfigContext' => [SymbolObject] },
+    endFlowNode: { flags: 2 },
+    symbolCount: 3,
+    classifiableNames: Set(1) { 'ConfigContext' },
+    id: 1149
+  },
+  kind: 262,
+  decorators: undefined,
+  modifiers: undefined,
+  symbol: undefined,
+  localSymbol: undefined,
+  locals: undefined,
+  nextContainer: undefined,
+  importClause: <ref *3> NodeObject {
+    pos: 6,
+    end: 20,
+    flags: 0,
+    modifierFlagsCache: 536870912,
+    transformFlags: 0,
+    parent: [Circular *1],
+    kind: 263,
+    isTypeOnly: false,
+    name: IdentifierObject {
+      pos: 6,
+      end: 20,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *3],
+      kind: 78,
+      originalKeywordKind: undefined,
+      escapedText: 'ConfigContext',
+      flowNode: [Object]
+    },
+    namedBindings: undefined,
+    symbol: SymbolObject {
+      flags: 2097152,
+      escapedName: 'ConfigContext',
+      declarations: [Array],
+      parent: undefined,
+      id: 65,
+      isReferenced: 4046847
+    },
+    id: 1150
+  },
+  moduleSpecifier: TokenObject {
+    pos: 25,
+    end: 43,
+    flags: 0,
+    modifierFlagsCache: 0,
+    transformFlags: 0,
+    parent: [Circular *1],
+    kind: 10,
+    text: './ConfigContext',
+    singleQuote: undefined,
+    hasExtendedUnicodeEscape: false
+  },
+  id: 2001
+}
+C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/Modal/Modal.tsx
+NodeObject {
+  pos: 0,
+  end: 57,
+  flags: 8,
+  modifierFlagsCache: 0,
+  transformFlags: 0,
+  parent: undefined,
+  kind: 262,
+  decorators: undefined,
+  modifiers: undefined,
+  symbol: undefined,
+  localSymbol: undefined,
+  locals: undefined,
+  nextContainer: undefined,
+  importClause: NodeObject {
+    pos: 6,
+    end: 43,
+    flags: 8,
+    modifierFlagsCache: 0,
+    transformFlags: 0,
+    parent: undefined,
+    kind: 263,
+    isTypeOnly: false,
+    name: undefined,
+    namedBindings: NodeObject {
+      pos: 13,
+      end: 43,
+      flags: 8,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: undefined,
+      kind: 265,
+      elements: [Array],
+      original: [NodeObject]
+    },
+    original: NodeObject {
+      pos: 6,
+      end: 43,
+      flags: 0,
+      modifierFlagsCache: 536870912,
+      transformFlags: 0,
+      parent: [NodeObject],
+      kind: 263,
+      isTypeOnly: false,
+      name: [IdentifierObject],
+      namedBindings: [NodeObject],
+      symbol: [SymbolObject],
+      id: 1681
+    }
+  },
+  moduleSpecifier: <ref *1> TokenObject {
+    pos: 48,
+    end: 56,
+    flags: 0,
+    modifierFlagsCache: 0,
+    transformFlags: 0,
+    parent: NodeObject {
+      pos: 0,
+      end: 57,
+      flags: 0,
+      modifierFlagsCache: 536870912,
+      transformFlags: 0,
+      parent: [SourceFileObject],
+      kind: 262,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      importClause: [NodeObject],
+      moduleSpecifier: [Circular *1],
+      id: 2012
+    },
+    kind: 10,
+    text: 'react',
+    singleQuote: undefined,
+    hasExtendedUnicodeEscape: false
+  },
+  original: <ref *2> NodeObject {
+    pos: 0,
+    end: 57,
+    flags: 0,
+    modifierFlagsCache: 536870912,
+    transformFlags: 0,
+    parent: SourceFileObject {
+      pos: 0,
+      end: 1229,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 2228803,
+      parent: undefined,
+      kind: 298,
+      statements: [Array],
+      endOfFileToken: [TokenObject],
+      fileName: 'C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/Modal/Modal.tsx',
+      text: "import React, { FC, ReactNode, useContext } from 'react';\r\n" +
+        "import { createPortal } from 'react-dom';\r\n" +
+        "import clsx from 'clsx';\r\n" +
+        '\r\n' +
+        "import { ConfigContext } from 'Components/ConfigProvider';\r\n" +
+        "import type { GetContainerFunc } from 'Types/funcs';\r\n" +
+        '\r\n' +
+        '// classes\r\n' +
+        "const baseClassName = 'modal';\r\n" +
+        '\r\n' +
+        '// interfaces\r\n' +
+        'export interface ModalProps {\r\n' +
+        '  headerTitle: string;\r\n' +
+        '  children: ReactNode | string;\r\n' +
+        '  getContainer?: HTMLElement | GetContainerFunc\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '// main\r\n' +
+        'const Modal: FC<ModalProps> = ({\r\n' +
+        '  headerTitle,\r\n' +
+        '  children,\r\n' +
+        '  getContainer\r\n' +
+        '}) => {\r\n' +
+        '  if (!getContainer) {\r\n' +
+        "    throw Error('Please provider container for Modal');\r\n" +
+        '  }\r\n' +
+        '\r\n' +
+        '  const { namespace } = useContext(ConfigContext);\r\n' +
+        '\r\n' +
+        '  const componentClassName = clsx(\r\n' +
+        '    `${namespace}-${baseClassName}`\r\n' +
+        '  );\r\n' +
+        '\r\n' +
+        '  const headerClassName = `${namespace}-${baseClassName}__header`;\r\n' +
+        '\r\n' +
+        '  const container = getContainer instanceof Function\r\n' +
+        '    ? getContainer()\r\n' +
+        '    : getContainer;\r\n' +
+        '\r\n' +
+        '  const modal = (\r\n' +
+        '    <div className={componentClassName}>\r\n' +
+        '      <div className={headerClassName}>{headerTitle}</div>\r\n' +
+        '      {children}\r\n' +
+        '    </div>\r\n' +
+        '  );\r\n' +
+        '\r\n' +
+        '  return createPortal(modal, container);\r\n' +
+        '};\r\n' +
+        '\r\n' +
+        'Modal.defaultProps = {\r\n' +
+        '  getContainer: document.body\r\n' +
+        '};\r\n' +
+        '\r\n' +
+        'export default Modal;\r\n',
+      languageVersion: 1,
+      languageVariant: 1,
+      scriptKind: 4,
+      isDeclarationFile: false,
+      hasNoDefaultLib: false,
+      externalModuleIndicator: [Circular *2],
+      bindDiagnostics: [],
+      bindSuggestionDiagnostics: undefined,
+      pragmas: Map(0) {},
+      checkJsDirective: undefined,
+      referencedFiles: [],
+      typeReferenceDirectives: [],
+      libReferenceDirectives: [],
+      amdDependencies: [],
+      commentDirectives: undefined,
+      nodeCount: 189,
+      identifierCount: 60,
+      identifiers: [Map],
+      parseDiagnostics: [],
+      version: 'adcc04ac33cb2ebf00dbdb795ab934a3b3e4e60d6d127da50c45f78a5a7a477c',
+      path: 'c:/users/jiazheng/desktop/weblearning/rollup/ui-kit/src/components/modal/modal.tsx',
+      resolvedPath: 'c:/users/jiazheng/desktop/weblearning/rollup/ui-kit/src/components/modal/modal.tsx',
+      originalFileName: 'C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/Modal/Modal.tsx',
+      imports: [Array],
+      moduleAugmentations: [],
+      ambientModuleNames: [],
+      resolvedModules: [Map],
+      symbol: [SymbolObject],
+      locals: [Map],
+      nextContainer: [NodeObject],
+      endFlowNode: [Object],
+      symbolCount: 34,
+      classifiableNames: [Set],
+      id: 1154,
+      lineMap: [Array],
+      emitNode: undefined
+    },
+    kind: 262,
+    decorators: undefined,
+    modifiers: undefined,
+    symbol: undefined,
+    localSymbol: undefined,
+    locals: undefined,
+    nextContainer: undefined,
+    importClause: NodeObject {
+      pos: 6,
+      end: 43,
+      flags: 0,
+      modifierFlagsCache: 536870912,
+      transformFlags: 0,
+      parent: [Circular *2],
+      kind: 263,
+      isTypeOnly: false,
+      name: [IdentifierObject],
+      namedBindings: [NodeObject],
+      symbol: [SymbolObject],
+      id: 1681
+    },
+    moduleSpecifier: <ref *1> TokenObject {
+      pos: 48,
+      end: 56,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *2],
+      kind: 10,
+      text: 'react',
+      singleQuote: undefined,
+      hasExtendedUnicodeEscape: false
+    },
+    id: 2012
+  }
+}
+C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/Modal/Modal.tsx
+NodeObject {
+  pos: 188,
+  end: 242,
+  flags: 8,
+  modifierFlagsCache: 0,
+  transformFlags: 1,
+  parent: undefined,
+  kind: 262,
+  decorators: undefined,
+  modifiers: undefined,
+  symbol: undefined,
+  localSymbol: undefined,
+  locals: undefined,
+  nextContainer: undefined,
+  importClause: NodeObject {
+    pos: 196,
+    end: 222,
+    flags: 8,
+    modifierFlagsCache: 0,
+    transformFlags: 1,
+    parent: undefined,
+    kind: 263,
+    isTypeOnly: true,
+    name: undefined,
+    namedBindings: NodeObject {
+      pos: 201,
+      end: 222,
+      flags: 8,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: undefined,
+      kind: 265,
+      elements: [Array],
+      original: [NodeObject]
+    },
+    original: NodeObject {
+      pos: 196,
+      end: 222,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 1,
+      parent: [NodeObject],
+      kind: 263,
+      isTypeOnly: true,
+      name: undefined,
+      namedBindings: [NodeObject]
+    }
+  },
+  moduleSpecifier: <ref *1> TokenObject {
+    pos: 227,
+    end: 241,
+    flags: 0,
+    modifierFlagsCache: 0,
+    transformFlags: 0,
+    parent: NodeObject {
+      pos: 188,
+      end: 242,
+      flags: 0,
+      modifierFlagsCache: 536870912,
+      transformFlags: 1,
+      parent: [SourceFileObject],
+      kind: 262,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      importClause: [NodeObject],
+      moduleSpecifier: [Circular *1],
+      id: 2020
+    },
+    kind: 10,
+    text: 'Types/funcs',
+    singleQuote: undefined,
+    hasExtendedUnicodeEscape: false
+  },
+  original: <ref *2> NodeObject {
+    pos: 188,
+    end: 242,
+    flags: 0,
+    modifierFlagsCache: 536870912,
+    transformFlags: 1,
+    parent: SourceFileObject {
+      pos: 0,
+      end: 1229,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 2228803,
+      parent: undefined,
+      kind: 298,
+      statements: [Array],
+      endOfFileToken: [TokenObject],
+      fileName: 'C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/Modal/Modal.tsx',
+      text: "import React, { FC, ReactNode, useContext } from 'react';\r\n" +
+        "import { createPortal } from 'react-dom';\r\n" +
+        "import clsx from 'clsx';\r\n" +
+        '\r\n' +
+        "import { ConfigContext } from 'Components/ConfigProvider';\r\n" +
+        "import type { GetContainerFunc } from 'Types/funcs';\r\n" +
+        '\r\n' +
+        '// classes\r\n' +
+        "const baseClassName = 'modal';\r\n" +
+        '\r\n' +
+        '// interfaces\r\n' +
+        'export interface ModalProps {\r\n' +
+        '  headerTitle: string;\r\n' +
+        '  children: ReactNode | string;\r\n' +
+        '  getContainer?: HTMLElement | GetContainerFunc\r\n' +
+        '}\r\n' +
+        '\r\n' +
+        '// main\r\n' +
+        'const Modal: FC<ModalProps> = ({\r\n' +
+        '  headerTitle,\r\n' +
+        '  children,\r\n' +
+        '  getContainer\r\n' +
+        '}) => {\r\n' +
+        '  if (!getContainer) {\r\n' +
+        "    throw Error('Please provider container for Modal');\r\n" +
+        '  }\r\n' +
+        '\r\n' +
+        '  const { namespace } = useContext(ConfigContext);\r\n' +
+        '\r\n' +
+        '  const componentClassName = clsx(\r\n' +
+        '    `${namespace}-${baseClassName}`\r\n' +
+        '  );\r\n' +
+        '\r\n' +
+        '  const headerClassName = `${namespace}-${baseClassName}__header`;\r\n' +
+        '\r\n' +
+        '  const container = getContainer instanceof Function\r\n' +
+        '    ? getContainer()\r\n' +
+        '    : getContainer;\r\n' +
+        '\r\n' +
+        '  const modal = (\r\n' +
+        '    <div className={componentClassName}>\r\n' +
+        '      <div className={headerClassName}>{headerTitle}</div>\r\n' +
+        '      {children}\r\n' +
+        '    </div>\r\n' +
+        '  );\r\n' +
+        '\r\n' +
+        '  return createPortal(modal, container);\r\n' +
+        '};\r\n' +
+        '\r\n' +
+        'Modal.defaultProps = {\r\n' +
+        '  getContainer: document.body\r\n' +
+        '};\r\n' +
+        '\r\n' +
+        'export default Modal;\r\n',
+      languageVersion: 1,
+      languageVariant: 1,
+      scriptKind: 4,
+      isDeclarationFile: false,
+      hasNoDefaultLib: false,
+      externalModuleIndicator: [NodeObject],
+      bindDiagnostics: [],
+      bindSuggestionDiagnostics: undefined,
+      pragmas: Map(0) {},
+      checkJsDirective: undefined,
+      referencedFiles: [],
+      typeReferenceDirectives: [],
+      libReferenceDirectives: [],
+      amdDependencies: [],
+      commentDirectives: undefined,
+      nodeCount: 189,
+      identifierCount: 60,
+      identifiers: [Map],
+      parseDiagnostics: [],
+      version: 'adcc04ac33cb2ebf00dbdb795ab934a3b3e4e60d6d127da50c45f78a5a7a477c',
+      path: 'c:/users/jiazheng/desktop/weblearning/rollup/ui-kit/src/components/modal/modal.tsx',
+      resolvedPath: 'c:/users/jiazheng/desktop/weblearning/rollup/ui-kit/src/components/modal/modal.tsx',
+      originalFileName: 'C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/Modal/Modal.tsx',
+      imports: [Array],
+      moduleAugmentations: [],
+      ambientModuleNames: [],
+      resolvedModules: [Map],
+      symbol: [SymbolObject],
+      locals: [Map],
+      nextContainer: [NodeObject],
+      endFlowNode: [Object],
+      symbolCount: 34,
+      classifiableNames: [Set],
+      id: 1154,
+      lineMap: [Array],
+      emitNode: undefined
+    },
+    kind: 262,
+    decorators: undefined,
+    modifiers: undefined,
+    symbol: undefined,
+    localSymbol: undefined,
+    locals: undefined,
+    nextContainer: undefined,
+    importClause: NodeObject {
+      pos: 196,
+      end: 222,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 1,
+      parent: [Circular *2],
+      kind: 263,
+      isTypeOnly: true,
+      name: undefined,
+      namedBindings: [NodeObject]
+    },
+    moduleSpecifier: <ref *1> TokenObject {
+      pos: 227,
+      end: 241,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *2],
+      kind: 10,
+      text: 'Types/funcs',
+      singleQuote: undefined,
+      hasExtendedUnicodeEscape: false
+    },
+    id: 2020
+  }
+}
+C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/Modal/index.ts
+<ref *1> NodeObject {
+  pos: 0,
+  end: 28,
+  flags: 0,
+  modifierFlagsCache: 536870912,
+  transformFlags: 0,
+  parent: <ref *2> SourceFileObject {
+    pos: 0,
+    end: 101,
+    flags: 0,
+    modifierFlagsCache: 0,
+    transformFlags: 0,
+    parent: undefined,
+    kind: 298,
+    statements: [
+      [Circular *1],
+      [NodeObject],
+      [NodeObject],
+      pos: 0,
+      end: 99,
+      hasTrailingComma: false,
+      transformFlags: 0
+    ],
+    endOfFileToken: TokenObject {
+      pos: 99,
+      end: 101,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *2],
+      kind: 1
+    },
+    fileName: 'C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/Modal/index.ts',
+    text: "import Modal from './Modal';\r\n" +
+      '\r\n' +
+      "export type { ModalProps } from './Modal';\r\n" +
+      '\r\n' +
+      'export default Modal;\r\n',
+    languageVersion: 1,
+    languageVariant: 0,
+    scriptKind: 3,
+    isDeclarationFile: false,
+    hasNoDefaultLib: false,
+    externalModuleIndicator: [Circular *1],
+    bindDiagnostics: [],
+    bindSuggestionDiagnostics: undefined,
+    pragmas: Map(0) {},
+    checkJsDirective: undefined,
+    referencedFiles: [],
+    typeReferenceDirectives: [],
+    libReferenceDirectives: [],
+    amdDependencies: [],
+    commentDirectives: undefined,
+    nodeCount: 13,
+    identifierCount: 3,
+    identifiers: Map(3) {
+      'Modal' => 'Modal',
+      './Modal' => './Modal',
+      'ModalProps' => 'ModalProps'
+    },
+    parseDiagnostics: [],
+    version: 'fbda1a20f7121ae04826109c5a549129276030c5db36bd130333a41eb578bf68',
+    path: 'c:/users/jiazheng/desktop/weblearning/rollup/ui-kit/src/components/modal/index.ts',
+    resolvedPath: 'c:/users/jiazheng/desktop/weblearning/rollup/ui-kit/src/components/modal/index.ts',
+    originalFileName: 'C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/Modal/index.ts',
+    imports: [ [TokenObject], [TokenObject], [TokenObject] ],
+    moduleAugmentations: [],
+    ambientModuleNames: [],
+    resolvedModules: Map(2) { 'tslib' => [Object], './Modal' => [Object] },
+    symbol: SymbolObject {
+      flags: 512,
+      escapedName: '"C:/Users/JiaZheng/Desktop/WebLearning/Rollup/ui-kit/src/components/Modal/index"',
+      declarations: [Array],
+      exports: [Map],
+      valueDeclaration: [Circular *2],
+      id: 653
+    },
+    locals: Map(1) { 'Modal' => [SymbolObject] },
+    endFlowNode: { flags: 2 },
+    symbolCount: 4,
+    classifiableNames: Set(3) { 'Modal', 'ModalProps', 'default' },
+    id: 1982
+  },
+  kind: 262,
+  decorators: undefined,
+  modifiers: undefined,
+  symbol: undefined,
+  localSymbol: undefined,
+  locals: undefined,
+  nextContainer: undefined,
+  importClause: <ref *3> NodeObject {
+    pos: 6,
+    end: 12,
+    flags: 0,
+    modifierFlagsCache: 536870912,
+    transformFlags: 0,
+    parent: [Circular *1],
+    kind: 263,
+    isTypeOnly: false,
+    name: IdentifierObject {
+      pos: 6,
+      end: 12,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *3],
+      kind: 78,
+      originalKeywordKind: undefined,
+      escapedText: 'Modal',
+      flowNode: [Object]
+    },
+    namedBindings: undefined,
+    symbol: SymbolObject {
+      flags: 2097152,
+      escapedName: 'Modal',
+      declarations: [Array],
+      parent: undefined,
+      id: 656,
+      isReferenced: 67108863
+    },
+    id: 1985
+  },
+  moduleSpecifier: TokenObject {
+    pos: 17,
+    end: 27,
+    flags: 0,
+    modifierFlagsCache: 0,
+    transformFlags: 0,
+    parent: [Circular *1],
+    kind: 10,
+    text: './Modal',
+    singleQuote: undefined,
+    hasExtendedUnicodeEscape: false
+  },
+  id: 2023
+}
+Done in 6.00s.
