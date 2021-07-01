@@ -1,6 +1,6 @@
 {
   "name": "@jguo/ui-kit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/main.js",
   "files": [
     "dist"
@@ -9,10 +9,10 @@
   "scripts": {
     "build": "yarn build:ts && yarn build:scss",
     "build:ts": "rollup -c",
-    "build:scss": "sass src/styles/main.scss dist/main.scss",
+    "build:scss": "sass src/styles/main.scss dist/main.css",
     "test": "jest",
     "watch:ts": "rollup -c -w",
-    "watch:scss": "sass --watch src/styles/main.scss dist/main.scss"
+    "watch:scss": "sass --watch src/styles/main.scss dist/main.css"
   },
   "author": "Jason Guo",
   "license": "MIT",
