@@ -15,13 +15,19 @@ export interface ModalProps {
 }
 
 // main
-const Modal: UIKitFC<ModalProps> = ({
-  headerTitle,
-  children,
-  getContainer
-}) => {
+export const Modal: UIKitFC<ModalProps> = (props) => {
+  const {
+    headerTitle,
+    children,
+    getContainer
+  } = props;
+
+  if (!headerTitle) {
+    throw Error('Please provider "headerTitle" property for Modal')
+  }
+
   if (!getContainer) {
-    throw Error('Please provider container for Modal');
+    throw Error('Please provider "container" property for Modal');
   }
 
   const { namespace } = useContext(ConfigContext);

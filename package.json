@@ -8,11 +8,14 @@
   "types": "dist/dts/main.d.ts",
   "scripts": {
     "build": "yarn build:ts && yarn build:scss",
+    "watch": "mkdir -p dist && (yarn watch:ts & yarn watch:scss)",
     "build:ts": "rollup -c",
-    "build:scss": "sass src/styles/main.scss dist/main.css",
-    "test": "jest",
     "watch:ts": "rollup -c -w",
-    "watch:scss": "sass --watch src/styles/main.scss dist/main.css"
+    "build:scss": "sass src/styles/main.scss dist/main.css",
+    "watch:scss": "sass --watch src/styles/main.scss dist/main.css",
+    "build:sg": "styleguidist build",
+    "serve:sg": "styleguidist server",
+    "test": "jest"
   },
   "author": "Jason Guo",
   "license": "MIT",
@@ -22,24 +25,11 @@
   "dependencies": {
     "clsx": "^1.1.1"
   },
-  "devDependencies": {
-    "@rollup/plugin-typescript": "^8.2.1",
-    "@types/react": "^17.0.11",
-    "@types/react-dom": "^17.0.8",
-    "jest": "^27.0.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-styleguidist": "^11.1.7",
-    "rollup": "^2.52.1",
-    "sass": "^1.35.1",
-    "tslib": "^2.3.0",
-    "typescript": "^4.3.4"
-  },
   "peerDependencies": {
-    "@types/react": "*",
-    "@types/react-dom": "*",
-    "react": "*",
-    "react-dom": "*"
+    "@types/react": "^16.8.0 || ^17.0.0",
+    "@types/react-dom": "^16.8.0 || ^17.0.0",
+    "react": "^16.8.0 || ^17.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0"
   },
   "peerDependenciesMeta": {
     "@types/react": {
@@ -48,5 +38,30 @@
     "@types/react-dom": {
       "optional": true
     }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "jest": "^27.0.4",
+    "react": "^17.0.2",
+    "react-docgen-typescript": "^2.0.0",
+    "react-dom": "^17.0.2",
+    "react-styleguidist": "^11.1.7",
+    "rollup": "^2.52.1",
+    "sass": "^1.35.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.4",
+    "webpack": "^5.41.1"
   }
 }

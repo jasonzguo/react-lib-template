@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { ButtonHTMLAttributes, MouseEventHandler, useContext } from 'react';
 import clsx from 'clsx';
 
 import { ConfigContext } from '../ConfigProvider';
@@ -8,16 +8,22 @@ import type { UIKitFC } from '../../types/react-extensions';
 export interface ButtonProps {
   className?: string,
   disabled?: boolean,
-  loading?: boolean
+  loading?: boolean,
+  onClick?: MouseEventHandler<HTMLButtonElement>
 };
 
-// main
-const Button: UIKitFC<ButtonProps> = ({
-  className,
-  disabled,
-  loading,
-  children
-}) => {
+/**
+ * Description of Button component
+ */
+export const Button: UIKitFC<ButtonProps> = (props) => {
+  const {
+    className,
+    disabled,
+    loading,
+    children,
+    onClick
+  } = props;
+
   const { namespace } = useContext(ConfigContext);
   const { baseClassName } = Button.constants;
   const componentClassName = clsx(
@@ -28,7 +34,7 @@ const Button: UIKitFC<ButtonProps> = ({
   );
 
   return (
-    <button className={componentClassName}>
+    <button className={componentClassName} onClick={onClick}>
       {children}
     </button>
   );

@@ -8,7 +8,7 @@ interface ConfigConsumerProps {
 }
 
 const ConfigContext = createContext<ConfigConsumerProps>({
-  namespace: `${process.env.UI_KIT_NAMESPACE}-ui-kit` || 'ui-kit',
+  namespace: process.env.UI_KIT_NAMESPACE ? `${process.env.UI_KIT_NAMESPACE}-ui-kit` : 'ui-kit',
   locale: process.env.UI_KIT_LOCALE || 'en',
   theme: 'light'
 });
