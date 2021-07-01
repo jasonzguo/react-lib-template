@@ -1,4 +1,4 @@
-import React, { ButtonHTMLAttributes, MouseEventHandler, useContext } from 'react';
+import React, { MouseEventHandler, useContext } from 'react';
 import clsx from 'clsx';
 
 import { ConfigContext } from '../ConfigProvider';
@@ -6,11 +6,11 @@ import type { UIKitFC } from '../../types/react-extensions';
 
 // interfaces
 export interface ButtonProps {
-  className?: string,
-  disabled?: boolean,
-  loading?: boolean,
-  onClick?: MouseEventHandler<HTMLButtonElement>
-};
+  className?: string;
+  disabled?: boolean;
+  loading?: boolean;
+  onClick?: MouseEventHandler<HTMLButtonElement>;
+}
 
 /**
  * Description of Button component
