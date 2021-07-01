@@ -2,6 +2,7 @@ node_modules
 
 dist
 
+.env
 .rollup.tscache
 
 yarn-error.log
