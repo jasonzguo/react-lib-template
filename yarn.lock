@@ -535,13 +535,6 @@
   resolved "https://jasonguo24.jfrog.io/artifactory/api/npm/default-npm-virtual/@popperjs/core/-/core-2.9.2.tgz#adea7b6953cbb34651766b0548468e743c6a2353"
   integrity sha1-rep7aVPLs0ZRdmsFSEaOdDxqI1M=
 
-"@rollup/plugin-alias@^3.1.2":
-  version "3.1.2"
-  resolved "https://jasonguo24.jfrog.io/artifactory/api/npm/default-npm-virtual/@rollup/plugin-alias/-/plugin-alias-3.1.2.tgz#c585b05be4a7782d269c69d13def56f44e417772"
-  integrity sha1-xYWwW+SneC0mnGnRPe9W9E5Bd3I=
-  dependencies:
-    slash "^3.0.0"
-
 "@rollup/plugin-typescript@^8.2.1":
   version "8.2.1"
   resolved "https://jasonguo24.jfrog.io/artifactory/api/npm/default-npm-virtual/@rollup/plugin-typescript/-/plugin-typescript-8.2.1.tgz#f1a32d4030cc83432ce36a80a922280f0f0b5d44"

@@ -1,12 +1,11 @@
-import React, { FC, ReactNode, useContext } from 'react';
+import React, { ReactNode, useContext } from 'react';
 import { createPortal } from 'react-dom';
 import clsx from 'clsx';
 
-import { ConfigContext } from 'Components/ConfigProvider';
-import type { GetContainerFunc } from 'Types/funcs';
-
-// classes
-const baseClassName = 'modal';
+import Button from '../Button';
+import { ConfigContext } from '../ConfigProvider';
+import type { UIKitFC } from '../../types/react-extensions';
+import type { GetContainerFunc } from '../../types/funcs';
 
 // interfaces
 export interface ModalProps {
@@ -16,7 +15,7 @@ export interface ModalProps {
 }
 
 // main
-const Modal: FC<ModalProps> = ({
+const Modal: UIKitFC<ModalProps> = ({
   headerTitle,
   children,
   getContainer
@@ -26,12 +25,10 @@ const Modal: FC<ModalProps> = ({
   }
 
   const { namespace } = useContext(ConfigContext);
-
-  const componentClassName = clsx(
-    `${namespace}-${baseClassName}`
-  );
-
+  const { baseClassName } = Modal.constants;
+  const componentClassName = clsx(`${namespace}-${baseClassName}`);
   const headerClassName = `${namespace}-${baseClassName}__header`;
+  const footerClassName = `${namespace}-${baseClassName}__footer`;
 
   const container = getContainer instanceof Function
     ? getContainer()
@@ -41,10 +38,17 @@ const Modal: FC<ModalProps> = ({
     <div className={componentClassName}>
       <div className={headerClassName}>{headerTitle}</div>
       {children}
+      <div className={footerClassName}>
+        <Button>OK</Button>
+      </div>
     </div>
   );
 
   return createPortal(modal, container);
+};
+
+Modal.constants = {
+  baseClassName: "modal"
 };
 
 Modal.defaultProps = {
