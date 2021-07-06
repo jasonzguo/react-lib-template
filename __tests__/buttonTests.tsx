@@ -1,10 +1,12 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, cleanup } from '@testing-library/react';
 import { expect } from 'chai';
 
 import Button from '../src/components/Button';
 
 describe('Button', () => {
+  afterEach(cleanup);
+
   it('should have a test ID', async () => {
     const { getByTestId } = render(<Button testId="the-test-id">Hello World</Button>);
     expect(getByTestId('the-test-id')).to.not.equal(null)

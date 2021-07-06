@@ -3,6 +3,6 @@ module.exports = {
     "tsx"
   ],
   "spec": "__tests__/*.tsx",
-  "reporter": "dot",
+  "reporter": "Min",
   "require": ["global-jsdom/register", "./babel-register.js"]
 }
