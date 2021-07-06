@@ -3,11 +3,15 @@ const webpack = require('webpack');
 const { version } = require('./package');
 
 module.exports = {
+  version,
+
   title: 'UI Kit',
+
+  styleguideDir: `docs/v${version}`,
 
   components: 'src/components/**/[A-Z]*.tsx',
 
-  propsParser: require("react-docgen-typescript").withDefaultConfig().parse,
+  propsParser: require('react-docgen-typescript').withDefaultConfig().parse,
 
   require: [
     path.join(__dirname, 'src/styles/main.scss')
@@ -27,11 +31,11 @@ module.exports = {
           test: /\.scss$/,
           use: [
             // Creates `style` nodes from JS strings
-            "style-loader",
+            'style-loader',
             // Translates CSS into CommonJS
-            "css-loader",
+            'css-loader',
             // Compiles Sass to CSS
-            "sass-loader",
+            'sass-loader',
           ]
         }
       ]
@@ -44,7 +48,5 @@ module.exports = {
         'process.env': {}
       })
     ]
-  },
-
-  version
+  }
 }
