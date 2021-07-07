@@ -24,6 +24,7 @@ steps:
   displayName: 'run unit tests'
 
 - task: PublishTestResults@2
+  condition: succeededOrFailed()
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/test-*.xml'
