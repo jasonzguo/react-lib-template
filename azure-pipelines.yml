@@ -16,9 +16,14 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
+    yarn install
   displayName: 'install packages'
 
 - script: |
-    npm run test
+    yarn test --reporter xunit --reporter-options output=test-results.xml
   displayName: 'run unit tests'
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'XUnit'
+    testResultsFiles: '**/test-results.xml'
+
