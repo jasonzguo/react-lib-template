@@ -22,8 +22,13 @@ steps:
 - script: |
     yarn test --reporter xunit --reporter-options output=test-results.xml
   displayName: 'run unit tests'
+
+- script: |
+    pwd
+  displayName: 'pwd'
+
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'XUnit'
-    testResultsFiles: 'test-results.xml'
+    testResultsFiles: '**/test-*.xml'
 
