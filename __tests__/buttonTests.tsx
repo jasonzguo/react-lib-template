@@ -14,6 +14,6 @@ describe('Button', () => {
 
   it('should render children', async () => {
     const { container } = render(<Button>Hello World</Button>);
-    expect(container.textContent).to.equal('Hello World!!!');
+    expect(container.textContent).to.equal('Hello World');
   });
 });
