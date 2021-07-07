@@ -17,7 +17,8 @@
     "build:sg": "styleguidist build",
     "serve:sg": "styleguidist server",
     "pre-commit-lint": "lint-staged",
-    "test": "mocha"
+    "test": "mocha",
+    "test:ci": "mocha --reporter xunit --reporter-options output=results.xml"
   },
   "author": "Jason Guo",
   "license": "MIT",
