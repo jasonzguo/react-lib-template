@@ -20,12 +20,8 @@ steps:
   displayName: 'install packages'
 
 - script: |
-    yarn test --reporter xunit --reporter-options output=test-results.xml
+    yarn test:ci
   displayName: 'run unit tests'
-
-- script: |
-    pwd
-  displayName: 'pwd'
 
 - task: PublishTestResults@2
   inputs:
